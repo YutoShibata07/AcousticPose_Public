@@ -1,0 +1,13 @@
+.vscode
+__pycache__
+.DS_Store
+tsp
+*.ipynb
+wandb
+wandb_result
+*dataset
+csv
+data
+*result
+*.out
+dataset*
