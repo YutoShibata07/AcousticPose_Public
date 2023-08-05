@@ -5,9 +5,9 @@ tsp
 *.ipynb
 wandb
 wandb_result
-*dataset
+*/*dataset
 csv
 data
 *result
 *.out
-dataset*
+*/dataset*
