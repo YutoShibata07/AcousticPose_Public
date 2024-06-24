@@ -8,6 +8,17 @@ Yuto Shibata, Yutaka Kawashima, Mariko Isogawa, Go Irie, Akisato Kimura, Yoshimi
 **CVPR 2023**  
 [[website](https://isogawa.ics.keio.ac.jp/research_project/acoustic_3dpose.html)] [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Shibata_Listening_Human_Behavior_3D_Human_Pose_Estimation_With_Acoustic_Signals_CVPR_2023_paper.pdf)] [[video](https://www.youtube.com/watch?v=IDvrSUautCI)]
 
+# Update
+A few notes about experimental settings:
+
+Please note that we adopted a U-Net-like architecture that upsamples and sums up multi-scale features at the decoder to both our method and Ginosar et al.’s method since we empirically found that it is more effective than the general U-Net.
+
+Also, There was a typographical error in the paper.
+
+Before: We set the learning rate to 0.003 and 0.001 with and without the subject discriminator module respectively.
+
+Fixed: We set the learning rate to 0.003 and 0.001 under single and cross-subject settings respectively.
+
 # Installation 
 ### Dataset
 * You can download the dataset from our project page.[1 MotionCapture](https://keio.box.com/shared/static/dc496qi861obz3a1olwtclxro61z4d5w.zip) [2. SoundData](https://keio.box.com/shared/static/dc496qi861obz3a1olwtclxro61z4d5w.zip)

@@ -237,7 +237,7 @@ def gt_pred_process(idx, gt, pred):
 
     threshold = 0.0
     for dim in ["_x", "_y", "_z"]:
-        threshold += (gt_dict["Neck" + dim] - pred_dict["Head" + dim]) ** 2
+        threshold += (gt_dict["Neck" + dim] - gt_dict["Head" + dim]) ** 2
     threshold = np.sqrt(threshold) * 0.5
     for joint in get_joint_names():
         out["corrects"][joint] = []
