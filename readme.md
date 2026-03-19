@@ -6,7 +6,7 @@ This repo contains the official implementation of our paper:
 Listening Human Behavior: 3D Human Pose Estimation with Acoustic Signals 
 Yuto Shibata, Yutaka Kawashima, Mariko Isogawa, Go Irie, Akisato Kimura, Yoshimitsu Aoki 
 **CVPR 2023**  
-[[website](https://isogawa.ics.keio.ac.jp/research_project/acoustic_3dpose.html)] [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Shibata_Listening_Human_Behavior_3D_Human_Pose_Estimation_With_Acoustic_Signals_CVPR_2023_paper.pdf)] [[video](https://www.youtube.com/watch?v=IDvrSUautCI)]
+[[Project Page](https://yutoshibata07.github.io/AcousticPose-projectpage/)] [[paper](https://openaccess.thecvf.com/content/CVPR2023/papers/Shibata_Listening_Human_Behavior_3D_Human_Pose_Estimation_With_Acoustic_Signals_CVPR_2023_paper.pdf)] [[video](https://www.youtube.com/watch?v=IDvrSUautCI)]
 
 # Update
 A few notes about experimental settings:
@@ -21,7 +21,7 @@ Fixed: We set the learning rate to 0.003 and 0.001 under single and cross-subjec
 
 # Installation 
 ### Dataset
-* You can download the dataset from our project page.[1 MotionCapture](https://keio.box.com/shared/static/dc496qi861obz3a1olwtclxro61z4d5w.zip) [2. SoundData](https://keio.box.com/shared/static/dc496qi861obz3a1olwtclxro61z4d5w.zip)
+* You can download the dataset from our [project page](https://yutoshibata07.github.io/AcousticPose-projectpage/#dataset).
 
 ### Subject assignment
 * For single subject and cross subject settings, please refer to the sound and pose data file mapping shown below.
